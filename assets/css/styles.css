@@ -138,4 +138,7 @@ nav {
     color: white !important;
 }
 
-a.navbar-brand {}
+a.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
