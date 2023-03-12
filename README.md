@@ -2,6 +2,8 @@
 
 This is the repository for Yash Joshi's personal CV/Resume and Portfolio, which is built on Bootstrap 5.
 
+![How website home page looks like](https://raw.githubusercontent.com/MeYashjoshi/Personal_CV/main/assets/img/screenshotofSite.jpeg?raw=true)
+
 ## Installation
 
 To use Yash Joshi's CV/Resume and Portfolio, simply clone this repository to your local machine:
