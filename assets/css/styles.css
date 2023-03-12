@@ -1,0 +1,141 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+/* 
+#watermark {
+  color: rgb(128 128 128 / 5%);
+  height: 100%;
+  left: 0;
+  line-height: 2;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  /* transform: rotate(-30deg); */
+  transform-origin: 0 100%;
+  width: 100%;
+  word-spacing: 10px;
+  z-index: -1;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+ } */
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-color: #F4F5F7;
+}
+
+p{
+  margin: 0 !important;
+}
+
+.profile-text {position: absolute;top: 11%;}
+
+h1.home__title {
+    font-size: 3.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+span.home__title-color {
+  color: #107096;
+}
+
+.profile-img {
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section {
+    padding: 50px 0px;
+    background-color: white;
+    box-shadow: 0 0.125rem 10px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+}
+
+.profile {
+    position: relative;
+}
+
+.contact {
+    background-color: #107096;
+    padding: 10px 40px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.pageTitle h1 {
+    color: #107096;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-title {
+  position: relative;
+  font-size: 39px;
+  color: #107096;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.section-title::after {
+  position: absolute;
+  content: '';
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 40px;
+  background-color: #107096;
+}
+
+.aboutText {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+.skillsData {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-bottom: 14px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 4px 25px rgb(14 36 49 / 15%); */
+}
+
+.skillsNames {
+  display: flex;
+  align-items: center;
+}
+
+.skill-img.m-auto {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #107096;
+}
+
+nav {
+    background-color: #107096 !important;
+    color: white !important;
+}
+
+a.navbar-brand {}
