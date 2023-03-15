@@ -57,7 +57,7 @@ span.home__title-color {
 section {
     padding: 50px 0px;
     background-color: white;
-    box-shadow: 0 0.125rem 10px rgb(0 0 0 / 8%);
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
     border-radius: 10px;
 }
 
@@ -101,6 +101,8 @@ section {
 
 .aboutText {
     width: 85%;
+    /* height: 59%; */
+    padding: 32px 0px;
     text-align: center;
     margin: auto;
 }
